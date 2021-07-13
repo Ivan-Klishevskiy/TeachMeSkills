@@ -5,19 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classwork/cl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cl3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cl4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cl5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cl6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/cl7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/p2cl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/p2cl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classwork/p2cl3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit1/Unit1Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit1/Unit1Task7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit3/Unit3Task9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit3/Unit3Task9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +71,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.p2cl3">
-    <configuration name="cl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cl1" />
+  <component name="RunManager" selected="Application.Unit3Task7">
+    <configuration name="Unit3Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit3.Unit3Task18" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.*" />
+          <option name="PATTERN" value="Unit3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cl4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.cl4" />
+    <configuration name="Unit3Task19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit3.Unit3Task19" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.*" />
+          <option name="PATTERN" value="Unit3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p2cl1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.p2cl1" />
+    <configuration name="Unit3Task20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit3.Unit3Task20" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.*" />
+          <option name="PATTERN" value="Unit3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p2cl2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.p2cl2" />
+    <configuration name="Unit3Task21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit3.Unit3Task21" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.*" />
+          <option name="PATTERN" value="Unit3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="p2cl3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.p2cl3" />
+    <configuration name="Unit3Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit3.Unit3Task7" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.*" />
+          <option name="PATTERN" value="Unit3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.p2cl3" />
-        <item itemvalue="Application.cl4" />
-        <item itemvalue="Application.p2cl2" />
-        <item itemvalue="Application.p2cl1" />
-        <item itemvalue="Application.cl1" />
+        <item itemvalue="Application.Unit3Task7" />
+        <item itemvalue="Application.Unit3Task21" />
+        <item itemvalue="Application.Unit3Task20" />
+        <item itemvalue="Application.Unit3Task19" />
+        <item itemvalue="Application.Unit3Task18" />
       </list>
     </recent_temporary>
   </component>
@@ -180,5 +189,26 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Unit3/Unit3Task12.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Unit3/Unit3Task12.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Unit3/Unit3Task12.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
