@@ -3,7 +3,7 @@ package Unit4;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Unit4Task4 {
+public class Unit4Task5 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         Random random=new Random();
@@ -21,23 +21,28 @@ public class Unit4Task4 {
                 scanner.next();
             }
         }
-        int sum=0;
         int [][]ms=new int[n][n];
         for(int i=0;i< ms.length;i++){
             for(int j=0;j< ms.length;j++){
-                ms[i][j]= random.nextInt(100);
+                ms[i][j]= random.nextInt(10);
                 System.out.print(ms[i][j]+" ");
             }
             System.out.println();
         }
         System.out.println();
+        int temp=0;
         for(int i=0;i< ms.length;i++){
-           for(int j=0;j<ms.length-i-1;j++){
-               if(ms[i][j]%2==0) {
-                   sum += ms[i][j];
-               }
-            }
+            for(int j=i+1;j< ms.length;j++){
+                    temp=ms[i][j];
+                    ms[i][j]=ms[j][i];
+                    ms[j][i]=temp;
+                }
         }
-        System.out.println("sum = "+sum);
+        for(int i=0;i< ms.length;i++){
+            for(int j=0;j< ms.length;j++){
+                System.out.print(ms[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
 }
