@@ -1,16 +1,16 @@
-package classwork;
+package AllClassWorks.classwork1;
 
 import java.util.Scanner;
 
-public class p2cl2 {
+public class cl4 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.printf("Введите число: ");
         int a=scan.nextInt();
-        long f=1l;
+        int sum=0;
         for(int i=1;i<=a;i++){
-            f*=i;
+            sum+=i;
         }
-        System.out.println(f);
+        System.out.println(sum);
     }
 }
