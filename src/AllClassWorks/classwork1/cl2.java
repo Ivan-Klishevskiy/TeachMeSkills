@@ -1,4 +1,4 @@
-package classwork;
+package AllClassWorks.classwork1;
 
 public class cl2 {
     public static void main(String[] args) {
