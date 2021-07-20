@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/Unit4/Unit4Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit4/Unit4Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit4/Unit4Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit4/Unit4Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit4/СrossZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/cl1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/cl2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/cl3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/cl4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/cl5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/cl6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/cl7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/p2cl1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/p2cl2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/classwork/p2cl3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cl4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cl5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cl6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/cl7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/p2cl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/p2cl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/p2cl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/p2cl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classwork/p2cl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/classwork1/p2cl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit4/СrossZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit4/СrossZero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

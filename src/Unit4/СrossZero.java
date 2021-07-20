@@ -24,7 +24,6 @@ public class СrossZero {
 
 
         for(int step=0;step<maxStep;step++) {        //цикл пока есть ходы
-
             //вывод игр. поля и поля контр. в консоль
             System.out.println("\n-------     -------");
             for (int i = 0; i < sizeMtx; i++) {
@@ -129,27 +128,28 @@ public class СrossZero {
                             (mtxGame[0][i] == player && mtxGame[1][i] == player &&
                                     mtxGame[2][i] == player)){
                         flag=1;
+                        System.out.println("Победили "+player);
                         break;
                     }
                 }
                 if ((mtxGame[0][0] == player && mtxGame[1][1] == player && mtxGame[2][2] == player) ||
                         (mtxGame[2][0] == player && mtxGame[1][1] == player && mtxGame[0][2] == player)){
                     flag=1;
+                    System.out.println("Победили "+player);
                     break;
                 }
             }
             if(flag==1){
-                System.out.println("Победили "+player);
                 break;
             }
         }
-        if(flag==0){
-            for (int i = 0; i < sizeMtx; i++) {
-                for (int j = 0; j < sizeMtx; j++) {
-                    System.out.print("|" + mtxGame[i][j]);
-                }
-                System.out.println("|\n-------");
+        for (int i = 0; i < sizeMtx; i++) {
+            for (int j = 0; j < sizeMtx; j++) {
+                System.out.print("|" + mtxGame[i][j]);
             }
+            System.out.println("|\n-------");
+        }
+        if(flag==0){
             System.out.println("Ничья!");
         }
     }
