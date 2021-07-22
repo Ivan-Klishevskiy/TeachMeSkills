@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/Unit5/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit5/Unit5Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit5/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit5/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +159,7 @@
       <workItem from="1625832444356" duration="9697000" />
       <workItem from="1626090581609" duration="869000" />
       <workItem from="1626105829409" duration="6032000" />
-      <workItem from="1626927552469" duration="1981000" />
+      <workItem from="1626927552469" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>

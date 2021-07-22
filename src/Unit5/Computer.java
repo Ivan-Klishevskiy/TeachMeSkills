@@ -7,11 +7,10 @@ public class Computer {
     int ram;
     int hardDrive;
     int resourseCycles;
-    int burn;
+    int burn;               //сгорел - 1
     boolean offOn;          //off - 0, on - 1
 
     public Computer(String processor, int ram, int hardDrive, int resourseCycles) {
-        Random random = new Random();
         this.processor = processor;
         this.ram = ram;
         this.hardDrive = hardDrive;
