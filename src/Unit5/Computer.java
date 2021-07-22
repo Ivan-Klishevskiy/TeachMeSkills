@@ -25,21 +25,21 @@ public class Computer {
 
     void turnOn(int inputUserNumber) {
         Random random = new Random();
-        if (this.burn == 0) {
-            if (!this.offOn) {
-                if (random.nextInt(2) == inputUserNumber && this.resourseCycles >= 0) {
-                    if (this.resourseCycles == 0) {
-                        this.burn = 1;
+        if (burn == 0) {
+            if (!offOn) {
+                if (random.nextInt(2) == inputUserNumber && resourseCycles >= 0) {
+                    if (resourseCycles == 0) {
+                        burn = 1;
                         System.out.println("Комп сгорел припопытке включения!");
                     } else {
-                        this.resourseCycles--;
-                        this.offOn = true;
+                        resourseCycles--;
+                        offOn = true;
                         System.out.println("Комп включен!");
                     }
 
                 } else {
                     System.out.println("Комп сгорел припопытке включения!");
-                    this.burn = 1;
+                    burn = 1;
                 }
             } else {
                 System.out.println("Комп уже включен!");
@@ -51,21 +51,21 @@ public class Computer {
 
     void turnOff(int inputUserNumber) {
         Random random = new Random();
-        if (this.burn == 0) {
-            if (this.offOn) {
-                if (random.nextInt(2) == inputUserNumber && this.resourseCycles >= 0) {
-                    if (this.resourseCycles == 0) {
-                        this.burn = 1;
+        if (burn == 0) {
+            if (offOn) {
+                if (random.nextInt(2) == inputUserNumber && resourseCycles >= 0) {
+                    if (resourseCycles == 0) {
+                        burn = 1;
                         System.out.println("Комп сгорел припопытке выключения!");
                     } else {
-                        this.resourseCycles--;
-                        this.offOn = false;
+                        resourseCycles--;
+                        offOn = false;
                         System.out.println("Комп выключен!");
 
                     }
                 } else {
                     System.out.println("Комп сгорел припопытке выключения!");
-                    this.burn = 1;
+                    burn = 1;
                 }
 
             } else {
