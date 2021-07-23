@@ -70,7 +70,7 @@ public class Computer {
         inputUserNumber = this.getInputUserNumber();
         if (!burn) {
             if (offOn) {
-                if (random.nextInt(2) == inputUserNumber && resourceCycles >= 0) {
+                if (random.nextInt(2) == inputUserNumber && resourceCycles > 0) {
                     resourceCycles--;
                     offOn=false;
                     System.out.println("Комп выключен!");
