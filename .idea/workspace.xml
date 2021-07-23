@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/Unit4/Unit4Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit4/Unit4Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit4/Unit4Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit5/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit5/Computer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -61,13 +60,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Unit4Task4">
-    <configuration name="Unit4Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4.Unit4Task4" />
+  <component name="RunManager" selected="Application.Unit5Task1">
+    <configuration name="Fabric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork5.Task2.Fabric" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit4.*" />
+          <option name="PATTERN" value="AllClassWorks.classwork5.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cl4p7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork4.cl4p7" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork5.Task3.MainClass" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.classwork4.*" />
+          <option name="PATTERN" value="AllClassWorks.classwork5.Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cl4p8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork4.cl4p8" />
+    <configuration name="Unit5Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit5.Unit5Task1" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.classwork4.*" />
+          <option name="PATTERN" value="Unit5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cl4p9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork4.cl4p9" />
+    <configuration name="cl5p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork5.cl5p3" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.classwork4.*" />
+          <option name="PATTERN" value="AllClassWorks.classwork5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="СrossZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit4.СrossZero" />
+    <configuration name="plus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit5.plus" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit4.*" />
+          <option name="PATTERN" value="Unit5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,26 +126,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Unit4Task4" />
-        <item itemvalue="Application.СrossZero" />
-        <item itemvalue="Application.cl4p9" />
-        <item itemvalue="Application.cl4p8" />
-        <item itemvalue="Application.cl4p7" />
+        <item itemvalue="Application.Unit5Task1" />
+        <item itemvalue="Application.plus" />
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.Fabric" />
+        <item itemvalue="Application.cl5p3" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +159,7 @@
       <workItem from="1625832444356" duration="9697000" />
       <workItem from="1626090581609" duration="869000" />
       <workItem from="1626105829409" duration="6032000" />
+      <workItem from="1626927552469" duration="7744000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
