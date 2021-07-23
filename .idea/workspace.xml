@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2" />
+    <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit5/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit5/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit5/Unit5Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit5/Unit5Task1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cl5p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork5.cl5p2" />
+    <configuration name="cl5p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork5.cl5p3" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cl5p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.classwork5.cl5p3" />
+    <configuration name="plus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit5.plus" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.classwork5.*" />
+          <option name="PATTERN" value="Unit5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Unit5Task1" />
+        <item itemvalue="Application.plus" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Fabric" />
         <item itemvalue="Application.cl5p3" />
-        <item itemvalue="Application.cl5p2" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +161,7 @@
       <workItem from="1625832444356" duration="9697000" />
       <workItem from="1626090581609" duration="869000" />
       <workItem from="1626105829409" duration="6032000" />
-      <workItem from="1626927552469" duration="2794000" />
+      <workItem from="1626927552469" duration="6913000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
