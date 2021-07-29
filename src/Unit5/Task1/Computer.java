@@ -1,4 +1,4 @@
-package Unit5;
+package Unit5.Task1;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class Computer {
     int hardDrive;
     int resourceCycles;
     boolean burn;               //сгорел - 1
-    boolean offOn;          //off - 0, on - 1
+    boolean offOn;              //off - 0, on - 1
 
     public Computer(String processor, int ram, int hardDrive, int resourceCycles) {
         this.processor = processor;

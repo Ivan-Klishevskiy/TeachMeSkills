@@ -1,4 +1,6 @@
-package Unit5;
+package Unit5.Task1;
+
+import Unit5.Task1.Computer;
 
 import java.util.Scanner;
 
