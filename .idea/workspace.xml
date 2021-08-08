@@ -5,19 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Jacket/AdidasJacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Jacket/IJacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Jacket/NikeJacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Pants/AdidasPants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Pants/IPants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Pants/NikePants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Shoes/AdidasShoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Shoes/IShoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task1/Shoes/NikeShoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task2/Cosmodrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task2/Falcon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task2/IStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task2/Shepard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit8/Task2/Shuttle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TMS_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TMS_course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/cl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/cl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/cl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/cl4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/cl5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/cl6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/cl7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/cl7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/p2cl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/p2cl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/p2cl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/p2cl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/classwork1/p2cl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork1/p2cl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task3/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task3/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task3/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task3/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task3/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task3/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task3/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task3/Pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task3/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task3/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task3/SolidOfRevolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task3/SolidOfRevolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task4/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task4/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task4/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task4/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task4/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task4/Printable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task5/Drum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task5/Drum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task5/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task5/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task5/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task5/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6continue/Task5/Tube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork6Сontinue/Task5/Tube.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +105,13 @@
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Person">
-    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork6continue.Task4.Book" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Cosmodrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.Task2.Cosmodrome" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork6continue.Task4.*" />
+          <option name="PATTERN" value="Unit8.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Guitar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork6continue.Task5.Guitar" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit8.Task2.Main" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork6continue.Task5.*" />
+          <option name="PATTERN" value="Unit8.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,20 +210,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Book" />
-      <item itemvalue="Application.Guitar" />
       <item itemvalue="Application.Person" />
       <item itemvalue="Application.Phone" />
       <item itemvalue="Application.Start" />
+      <item itemvalue="Application.Cosmodrome" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Cosmodrome" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.Phone" />
         <item itemvalue="Application.Start" />
-        <item itemvalue="Application.Guitar" />
-        <item itemvalue="Application.Book" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +254,8 @@
       <workItem from="1627064857424" duration="57364000" />
       <workItem from="1628191839957" duration="3524000" />
       <workItem from="1628198867332" duration="6219000" />
-      <workItem from="1628255121169" duration="522000" />
+      <workItem from="1628255121169" duration="822000" />
+      <workItem from="1628354353879" duration="5956000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
