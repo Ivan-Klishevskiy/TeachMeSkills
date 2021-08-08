@@ -1,4 +1,4 @@
-package AllClassWorks.ClassWork6continue.Task3;
+package AllClassWorks.ClassWork6Сontinue.Task3;
 
 public abstract class SolidOfRevolution extends Shape{
     private double radius;

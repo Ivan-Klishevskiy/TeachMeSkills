@@ -1,4 +1,4 @@
-package AllClassWorks.ClassWork6continue.Task4;
+package AllClassWorks.ClassWork6Сontinue.Task4;
 
 interface Printable {
     public void print();

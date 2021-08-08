@@ -1,4 +1,4 @@
-package AllClassWorks.ClassWork6continue.Task4;
+package AllClassWorks.ClassWork6Сontinue.Task4;
 
 public class Magazine implements Printable{
     private String name;

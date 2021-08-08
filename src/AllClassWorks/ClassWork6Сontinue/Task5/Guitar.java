@@ -1,4 +1,4 @@
-package AllClassWorks.ClassWork6continue.Task5;
+package AllClassWorks.ClassWork6Сontinue.Task5;
 
 public class Guitar implements Tools {
     private int numberOfStrings;
