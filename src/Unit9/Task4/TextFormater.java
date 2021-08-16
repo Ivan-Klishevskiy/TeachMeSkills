@@ -9,7 +9,7 @@ public class TextFormater {
         if(TextFormater.numberOfWords(str)>=3&&TextFormater.numberOfWords(str)<=5){
             return true;
         }
-        String[] words = str.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s+");
+        String[] words = str.split(" ");
         for(String i: words){
             StringBuilder rWord=new StringBuilder(i).reverse();
             if(i.equals(rWord.toString())){

@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/Unit9/Task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit9/Task4/OutTxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit9/Task4/ParsingTxt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit9/Task4/Text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit9/Task4/TextFormater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit9/Additionally/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit9/Additionally/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit9/Additionally/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit9/Task4/OutTxt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit9/Task4/OutTxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit9/Task4/Text" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit9/Task4/Text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit9/Task4/TextFormater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit9/Task4/TextFormater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Start">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit9.Task4.Main" />
       <module name="TMS_course" />
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit8.Task2.Main" />
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit9.Additionally.Start" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit8.Task2.*" />
+          <option name="PATTERN" value="Unit9.Additionally.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Task1" />
       <item itemvalue="Application.Task2" />
       <item itemvalue="Application.Task3" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Start" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Start" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +232,7 @@
       <workItem from="1628191839957" duration="3524000" />
       <workItem from="1628198867332" duration="6219000" />
       <workItem from="1628255121169" duration="822000" />
-      <workItem from="1628354353879" duration="15550000" />
+      <workItem from="1628354353879" duration="31228000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
