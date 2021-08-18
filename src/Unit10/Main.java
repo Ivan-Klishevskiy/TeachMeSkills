@@ -10,11 +10,12 @@ public class Main {
         } catch (ErrorStartException e) {
             e.printStackTrace();
         }
-
-        try {
-            tesla.start();
-        } catch (ErrorStartException e) {
-            e.printStackTrace();
+        finally {
+            try {
+                tesla.start();
+            } catch (ErrorStartException e) {
+                e.printStackTrace();
+            }
         }
 
     }
