@@ -7,6 +7,11 @@ public class Main {
 
         try {
             bmw.start();
+        } catch (ErrorStartException e) {
+            e.printStackTrace();
+        }
+
+        try {
             tesla.start();
         } catch (ErrorStartException e) {
             e.printStackTrace();
