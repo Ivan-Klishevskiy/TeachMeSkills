@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork10/CW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork10/WrongLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork10/WrongPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit10/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit10/ErrorStartException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit10/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit9/Additionally/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit9/Additionally/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +229,7 @@
       <workItem from="1628198867332" duration="6219000" />
       <workItem from="1628255121169" duration="822000" />
       <workItem from="1628354353879" duration="41231000" />
-      <workItem from="1629216389003" duration="3388000" />
+      <workItem from="1629216389003" duration="4015000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
