@@ -88,7 +88,7 @@ public class Shop {
             }
             if (flag) {
                 if (arrayProduct.length <= value) {
-                    Product[] copyArray = new Product[arrayProduct.length * 2];
+                    Product[] copyArray = new Product[(int) (arrayProduct.length * 1.5)];
                     int count = 0;
                     for (Product i : arrayProduct) {
                         copyArray[count++] = i;
