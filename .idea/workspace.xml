@@ -5,7 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change beforePath="$PROJECT_DIR$/src/Unit10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Test/TestInTest/newFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/copied_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/notes4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/person.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task1/Task1InFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task1/Task1OutFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task1/Unit11Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/ParsingTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/Task2OutFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/Task2Text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/TextFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task3/BlackList.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task3/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task3/Text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task3/TxtFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task4/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task4/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit11/Task4/save.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit9/Task4/TextFormater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit9/Task4/TextFormater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +71,22 @@
     <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1v1qGZHg9FDxkOmcgGKNoSQbpzh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Unit7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Unit11/Task2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,6 +98,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TMS_course\src\Unit11\Task2" />
       <recent name="E:\TMS_course\src\Unit7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -77,12 +110,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit9.Task4.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit11.Task2.Main" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit9.Task4.*" />
+          <option name="PATTERN" value="Unit11.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit10.Main" />
+    <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit11.Task4.Start" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit10.*" />
+          <option name="PATTERN" value="Unit11.Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +137,11 @@
       </method>
     </configuration>
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit9.Additionally.Start" />
+      <option name="MAIN_CLASS_NAME" value="Unit11.Task3.Start" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit9.Additionally.*" />
+          <option name="PATTERN" value="Unit11.Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit9.Task2" />
+    <configuration name="Task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork11.Task8" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit9.*" />
+          <option name="PATTERN" value="AllClassWorks.ClassWork11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit9.Task3" />
+    <configuration name="Unit11Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit11.Task1.Unit11Task1" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit9.*" />
+          <option name="PATTERN" value="Unit11.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +228,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task2" />
-      <item itemvalue="Application.Task3" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Start" />
+      <item itemvalue="Application.Task8" />
+      <item itemvalue="Application.Unit11Task1" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Start" />
+      <item itemvalue="Application.Start (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Start (1)" />
         <item itemvalue="Application.Start" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Unit11Task1" />
+        <item itemvalue="Application.Task8" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +262,7 @@
       <workItem from="1628198867332" duration="6219000" />
       <workItem from="1628255121169" duration="822000" />
       <workItem from="1628354353879" duration="41231000" />
-      <workItem from="1629216389003" duration="5675000" />
+      <workItem from="1629216389003" duration="26962000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
@@ -267,6 +300,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hw2p2" />
     <option name="LAST_COMMIT_MESSAGE" value="hw2p2" />
   </component>
@@ -297,6 +331,11 @@
           <url>file://$PROJECT_DIR$/src/Unit9/Additionally/Start.java</url>
           <line>20</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Unit11/Task2/ParsingTxt.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
