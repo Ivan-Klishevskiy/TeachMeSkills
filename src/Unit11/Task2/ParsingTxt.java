@@ -17,15 +17,6 @@ public class ParsingTxt {
             }
         }
 
-//        Matcher matcher = Pattern.compile("[^.!?]+[.!?]").matcher(allTxt);  //для разбития текста на предложения
-//
-//        while (matcher.find()) {
-//            String txt = matcher.group().trim();
-//            //если полидром и/или слов от 3 до 5 то записываем в файл
-//            if (TextFormatter.havePalindrome(txt)||TextFormatter.numberOfWords(txt)>=3&&TextFormatter.numberOfWords(txt)<=5) {
-//                finalTxt.append(txt);
-//            }
-//        }
         return finalTxt.toString();
     }
 }
