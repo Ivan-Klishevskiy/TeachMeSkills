@@ -9,14 +9,14 @@ public class IOService {
         sc = new Scanner(System.in);
         while (true) {
             while (!sc.hasNextInt()) {
-                System.out.println("Wrong input. Must be int.");
+                System.out.println("Ошибка ввода. Введите число:");
                 sc.next();
             }
             int number = sc.nextInt();
             if (number >= min && number <= max) {
                 return number;
             } else {
-                System.out.println("Wrong input. Must be more than " + min + " and less than " + max);
+                System.out.println("Ошибка ввода. Число меньше чем  " + min + " или больше чем " + max);
             }
         }
     }
@@ -32,7 +32,7 @@ public class IOService {
             for (int i = 0; i < str.length(); i++) {
                 if (str.charAt(i) < 'A' || str.charAt(i) > 'z') {
                     flag = false;
-                    System.out.println("Wrong input.");
+                    System.out.println("Ошибка ввода.");
                     break;
                 }
             }

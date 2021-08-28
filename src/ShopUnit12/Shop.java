@@ -28,34 +28,37 @@ public class Shop {
     public void addProduct(Product product) {
         for (Product i : list) {
             if (i.getId() == product.getId()) {
-                System.out.println("Добавление не произошло");
+                System.out.println("Добавление не успешно");
                 return;
             }
         }
         product.setHistoryNumber(countHistoryNumber);
         countHistoryNumber++;
         list.add(product);
-        System.out.println("Добавление произошло");
+        System.out.println("Добавление успешно");
     }
 
     public void removeProduct(int id) {
         for (Product i : list) {
             if (i.getId() == id) {
-                System.out.println("Удаление произошло");
+                System.out.println("Удаление успешно");
                 list.remove(i);
-                break;
+                return;
             }
         }
+        System.out.println("Удаление не успешно");
     }
 
     public void editProduct(Product product) {
         for (Product i : list) {
             if (i.getId() == product.getId()) {
-                System.out.println("Редактирование произошло");
+                System.out.println("Редактирование успешно");
                 i.setName(product.getName());
                 i.setPrice(product.getPrice());
+                return;
             }
         }
+        System.out.println("Редактирование не успешно");
     }
 
     public void setList(List<Product> list) {
@@ -76,8 +79,9 @@ public class Shop {
 
     public void printList() {
         System.out.println("Все товары:");
+        System.out.println( "| Название  | цена |  ID  |");
         for (Product i : list) {
-            System.out.println("ID: "+i.getId() + " Название: " + i.getName() + " Цена: "+ i.getPrice());
+            System.out.printf("|%10s | %5d| %5d|\n",i.getName(),i.getPrice(),i.getId());
         }
     }
 
