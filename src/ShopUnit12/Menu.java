@@ -1,14 +1,10 @@
 package ShopUnit12;
 
-import java.util.Scanner;
-
 public class Menu {
-    // private Scanner scanner = new Scanner(System.in);
     IOService ioService = new IOService();
 
-    public void menu() {
+    public void start() {
         Shop shop = new Shop();
-        int choice;
 
         do {
             System.out.print(
@@ -17,34 +13,45 @@ public class Menu {
                             |_1)_Добавить товар_________________|
                             |_2)_Вывод всех товаров_____________|
                             |_3)_Редактировать товар____________|
+                            |_4)_Удалить товар__________________|
                             |_0)_Выход из программы_____________|
                             *************************************
                             """
             );
             System.out.print("|->");
 
-            choice = ioService.getInt(0, 3);
-            switch (choice) {
+            switch (ioService.getInt(0, 4)) {
                 case 1 -> addingFunction(shop);
                 case 2 -> printFunction(shop);
-                case 3 -> editProduct(shop);
+                case 3 -> editFunction(shop);
+                case 4-> removeFunction(shop);
+                case 0 -> {
+                    System.out.println("Завершение программы...");
+                    return;
+                }
             }
 
-            System.out.println("Нажмите любую клавишу");
+            System.out.println("Нажмите Enter для продолжения");
             try {
                 System.in.read();
             } catch (Exception e) {
+                e.printStackTrace();
             }
             for (int i = 0; i < 10; i++) {
                 System.out.println();
             }
 
-        } while (choice != 0);
+        } while (true);
     }
 
-    private void editProduct(Shop shop) {
+    private void removeFunction(Shop shop) {
         System.out.print("Id всех товаров: " + "\n" + shop.getAllId() + "\n" + "Введите Id товара: ");
-        int id = ioService.getInt(0,Integer.MAX_VALUE);
+        shop.removeProduct(ioService.getInt(0, Integer.MAX_VALUE));
+    }
+
+    private void editFunction(Shop shop) {
+        System.out.print("Id всех товаров: " + "\n" + shop.getAllId() + "\n" + "Введите Id товара: ");
+        int id = ioService.getInt(0, Integer.MAX_VALUE);
 
         System.out.println("Введите название товара: ");
         String name = ioService.getString();
@@ -67,51 +74,10 @@ public class Menu {
         shop.addProduct(new Product(id, name, price));
     }
 
-//    private String inputUserString() {
-//        scanner = new Scanner(System.in);
-//        String str = "";
-//        boolean correct;
-//        do {
-//            correct=true;
-//            if (scanner.hasNextLine()) {
-//                str = scanner.nextLine();
-//                for (int i = 0; i < str.length(); i++) {
-//                    if (str.charAt(i) < 'А' || str.charAt(i) > 'я') {
-//                        correct = false;
-//                        System.out.println("Ошибка, повторите ввод: ");
-//                        break;
-//                    }
-//                }
-//            } else {
-//                System.out.println("Ошибка, повторите ввод: ");
-//                scanner.next();
-//            }
-//        } while (!correct);
-//        return str;
-//    }
-//
-//
-//    private int inputUserInt(int min, int max) {
-//        int value = 0;
-//        boolean correct;
-//        do {
-//            correct=false;
-//            if (scanner.hasNextInt()) {
-//                value = scanner.nextInt();
-//                if (value >= min && value <= max) {
-//                    correct=true;
-//                } else {
-//                    System.out.println("Ошибка, повторите ввод: ");
-//                    scanner.next();
-//                }
-//            }
-//        } while (!correct);
-//        return value;
-//    }
 
     private void printFunction(Shop shop) {
         System.out.println("""
-                *********************Сортировка вывода*****************
+                ******************Сортировка вывода********************
                 |_1)_По цене (возрастание)____________________________|
                 |_2)_По цене (убывание)_______________________________|
                 |_3)_По добавлению(сначала новые, потом более старые)_|
