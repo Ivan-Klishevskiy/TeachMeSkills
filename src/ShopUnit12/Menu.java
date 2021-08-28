@@ -3,7 +3,8 @@ package ShopUnit12;
 import java.util.Scanner;
 
 public class Menu {
-    private Scanner scanner = new Scanner(System.in);
+    // private Scanner scanner = new Scanner(System.in);
+    IOService ioService = new IOService();
 
     public void menu() {
         Shop shop = new Shop();
@@ -22,7 +23,7 @@ public class Menu {
             );
             System.out.print("|->");
 
-            choice = inputUserInt(0, 3);
+            choice = ioService.getInt(0, 3);
             switch (choice) {
                 case 1 -> addingFunction(shop);
                 case 2 -> printFunction(shop);
@@ -30,12 +31,10 @@ public class Menu {
             }
 
             System.out.println("Нажмите любую клавишу");
-            try
-            {
+            try {
                 System.in.read();
+            } catch (Exception e) {
             }
-            catch(Exception e)
-            {}
             for (int i = 0; i < 10; i++) {
                 System.out.println();
             }
@@ -45,70 +44,70 @@ public class Menu {
 
     private void editProduct(Shop shop) {
         System.out.print("Id всех товаров: " + "\n" + shop.getAllId() + "\n" + "Введите Id товара: ");
-        int id = inputUserInt(0, Integer.MAX_VALUE);
+        int id = ioService.getInt(0,Integer.MAX_VALUE);
 
         System.out.println("Введите название товара: ");
-        String name = inputUserString();
+        String name = ioService.getString();
 
         System.out.print("Введите цену продукта: ");
-        int price = inputUserInt(0, Integer.MAX_VALUE);
+        int price = ioService.getInt(0, Integer.MAX_VALUE);
         shop.editProduct(new Product(id, name, price));
     }
 
     private void addingFunction(Shop shop) {
         System.out.print("Введите название нового продукта: ");
-        String name = inputUserString();
+        String name = ioService.getString();
 
         System.out.print("Введите цену нового продукта: ");
-        int price = inputUserInt(0, Integer.MAX_VALUE);
+        int price = ioService.getInt(0, Integer.MAX_VALUE);
 
         System.out.print("Введите id нового продукта: ");
-        int id = inputUserInt(0, Integer.MAX_VALUE);
+        int id = ioService.getInt(0, Integer.MAX_VALUE);
 
         shop.addProduct(new Product(id, name, price));
     }
 
-    private String inputUserString() {
-        scanner = new Scanner(System.in);
-        String str = "";
-        boolean correct;
-        do {
-            correct=true;
-            if (scanner.hasNextLine()) {
-                str = scanner.nextLine();
-                for (int i = 0; i < str.length(); i++) {
-                    if (str.charAt(i) < 'А' || str.charAt(i) > 'я') {
-                        correct = false;
-                        System.out.println("Ошибка, повторите ввод: ");
-                        break;
-                    }
-                }
-            } else {
-                System.out.println("Ошибка, повторите ввод: ");
-                scanner.next();
-            }
-        } while (!correct);
-        return str;
-    }
-
-
-    private int inputUserInt(int min, int max) {
-        int value = 0;
-        boolean correct;
-        do {
-            correct=false;
-            if (scanner.hasNextInt()) {
-                value = scanner.nextInt();
-                if (value >= min && value <= max) {
-                    correct=true;
-                } else {
-                    System.out.println("Ошибка, повторите ввод: ");
-                    scanner.next();
-                }
-            }
-        } while (!correct);
-        return value;
-    }
+//    private String inputUserString() {
+//        scanner = new Scanner(System.in);
+//        String str = "";
+//        boolean correct;
+//        do {
+//            correct=true;
+//            if (scanner.hasNextLine()) {
+//                str = scanner.nextLine();
+//                for (int i = 0; i < str.length(); i++) {
+//                    if (str.charAt(i) < 'А' || str.charAt(i) > 'я') {
+//                        correct = false;
+//                        System.out.println("Ошибка, повторите ввод: ");
+//                        break;
+//                    }
+//                }
+//            } else {
+//                System.out.println("Ошибка, повторите ввод: ");
+//                scanner.next();
+//            }
+//        } while (!correct);
+//        return str;
+//    }
+//
+//
+//    private int inputUserInt(int min, int max) {
+//        int value = 0;
+//        boolean correct;
+//        do {
+//            correct=false;
+//            if (scanner.hasNextInt()) {
+//                value = scanner.nextInt();
+//                if (value >= min && value <= max) {
+//                    correct=true;
+//                } else {
+//                    System.out.println("Ошибка, повторите ввод: ");
+//                    scanner.next();
+//                }
+//            }
+//        } while (!correct);
+//        return value;
+//    }
 
     private void printFunction(Shop shop) {
         System.out.println("""
@@ -121,7 +120,7 @@ public class Menu {
                 """
         );
 
-        switch (inputUserInt(1, 3)) {
+        switch (ioService.getInt(1, 3)) {
             case 1 -> shop.sortByPriceAscending();
             case 2 -> shop.sortByPriceDecreasing();
             case 3 -> shop.sortByHistory();
@@ -138,7 +137,7 @@ public class Menu {
 
         );
 
-        if (inputUserInt(1, 2) == 1) {
+        if (ioService.getInt(1, 2) == 1) {
             shop.printList();
         } else {
             //TODO вывод списка в файл
