@@ -1,28 +1,27 @@
 package ShopUnit12;
 
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
 public class Shop {
     private List<Product> list;
-    private int countHistoryNumber;
 
     public Shop() {
         this.list = new ArrayList<>();
-        this.countHistoryNumber=0;
     }
 
-    public void sortByPriceAscending(){
-        list.sort(Comparator.comparing(Product::getPrice));
+    public void sortByPriceAscending() {
+        list.sort(Comparator.comparing(product -> product.getPrice()));
     }
 
-    public void sortByPriceDecreasing(){
-        list.sort(Comparator.comparing(Product::getPrice).reversed());
+    public void sortByPriceDecreasing() {
+        list.sort(Comparator.comparing((Product product) -> product.getPrice()).reversed());
     }
 
-    public void sortByHistory(){
-        list.sort(Comparator.comparing(Product::getHistoryNumber).reversed());
+    public void sortByHistory() {
+        list.sort(Comparator.comparing((Product product) -> product.getHistoryOfAdding()).reversed());
     }
 
     public void addProduct(Product product) {
@@ -32,8 +31,7 @@ public class Shop {
                 return;
             }
         }
-        product.setHistoryNumber(countHistoryNumber);
-        countHistoryNumber++;
+        product.setHistoryOfAdding(LocalTime.now());
         list.add(product);
         System.out.println("Добавление успешно");
     }
@@ -79,16 +77,14 @@ public class Shop {
 
     public void printList() {
         System.out.println("Все товары:");
-        System.out.println( "| Название  | цена |  ID  |");
+        System.out.println("| Название  | цена |  ID  |");
         for (Product i : list) {
-            System.out.printf("|%10s | %5d| %5d|\n",i.getName(),i.getPrice(),i.getId());
+            System.out.printf("|%10s | %5d| %5d|\n", i.getName(), i.getPrice(), i.getId());
         }
     }
 
     @Override
     public String toString() {
-        return "Shop{" +
-                "list=" + list +
-                '}';
+        return "Список товаров: "+"\n" + list;
     }
 }
