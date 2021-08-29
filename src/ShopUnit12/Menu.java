@@ -106,7 +106,7 @@ public class Menu {
         if (ioService.getInt(1, 2) == 1) {
             shop.printList();
         } else {
-            //TODO вывод списка в файл
+            ioService.writeInFile("src/ShopUnit12/ListProduct.txt",shop.toString());
         }
     }
 }

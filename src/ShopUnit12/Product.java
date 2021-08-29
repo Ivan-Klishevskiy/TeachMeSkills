@@ -1,10 +1,12 @@
 package ShopUnit12;
 
+import java.time.LocalTime;
+
 public class Product {
     private int id;
     private String name;
     private int price;
-    private int historyNumber;
+    private LocalTime historyOfAdding;
 
     public Product(int id, String name, int price) {
         this.id = id;
@@ -12,12 +14,12 @@ public class Product {
         this.price = price;
     }
 
-    public int getHistoryNumber() {
-        return historyNumber;
+    public LocalTime getHistoryOfAdding() {
+        return historyOfAdding;
     }
 
-    public void setHistoryNumber(int historyNumber) {
-        this.historyNumber = historyNumber;
+    public void setHistoryOfAdding(LocalTime historyOfAdding) {
+        this.historyOfAdding = historyOfAdding;
     }
 
     public int getId() {
@@ -46,10 +48,8 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+        return "Название: " + name +
+                " Цена: " + price +
+                " ID: " + id + "\n";
     }
 }

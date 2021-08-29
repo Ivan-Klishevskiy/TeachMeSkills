@@ -1,9 +1,23 @@
 package ShopUnit12;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class IOService {
     private Scanner sc;
+
+    public  void writeInFile(String way,String txt){
+        
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(way))) {
+            writer.write(txt);
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+
 
     public int getInt(int min, int max) {
         sc = new Scanner(System.in);
