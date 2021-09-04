@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/ShopUnit12/ListProduct.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ShopUnit12/IOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/IOService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShopUnit12/ListProduct.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/ListProduct.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ShopUnit12/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShopUnit12/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ShopUnit12/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,6 +189,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Unit11Task1" />
       <item itemvalue="Application.Main" />
@@ -294,11 +304,6 @@
           <url>file://$PROJECT_DIR$/src/Unit9/Additionally/Start.java</url>
           <line>20</line>
           <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Unit11/Task2/ParsingTxt.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

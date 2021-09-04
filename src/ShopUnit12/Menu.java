@@ -1,5 +1,7 @@
 package ShopUnit12;
 
+import java.util.stream.Collectors;
+
 public class Menu {
     IOService ioService = new IOService();
 
@@ -24,7 +26,7 @@ public class Menu {
                 case 1 -> addingFunction(shop);
                 case 2 -> printFunction(shop);
                 case 3 -> editFunction(shop);
-                case 4-> removeFunction(shop);
+                case 4 -> removeFunction(shop);
                 case 0 -> {
                     System.out.println("Завершение программы...");
                     return;
@@ -74,25 +76,27 @@ public class Menu {
         shop.addProduct(new Product(id, name, price));
     }
 
+    public void sortByRange(Shop shop, int outputLocation) {
+        System.out.print("Введите нижнюю границу: ");
+        int lowerBound = ioService.getInt(0, Integer.MAX_VALUE);
 
-    private void printFunction(Shop shop) {
-        System.out.println("""
-                ******************Сортировка вывода********************
-                |_1)_По цене (возрастание)____________________________|
-                |_2)_По цене (убывание)_______________________________|
-                |_3)_По добавлению(сначала новые, потом более старые)_|
-                *******************************************************
-                |->
-                """
-        );
+        System.out.print("Введите верхнюю границу: ");
+        int upperBound = ioService.getInt(0, Integer.MAX_VALUE);
 
-        switch (ioService.getInt(1, 3)) {
-            case 1 -> shop.sortByPriceAscending();
-            case 2 -> shop.sortByPriceDecreasing();
-            case 3 -> shop.sortByHistory();
+        if (outputLocation == 1) {
+            shop.getList().stream()
+                    .filter(x -> x.getPrice() >= lowerBound && x.getPrice() <= upperBound)
+                    .forEach(System.out::print);
+        } else {
+            shop.getList().stream()
+                    .filter(x -> x.getPrice() >= lowerBound && x.getPrice() <= upperBound)
+                    .forEach(i -> ioService.writeInFile("src/ShopUnit12/ListProduct.txt", i.toString()));
         }
 
-        System.out.println(
+    }
+
+    private void printFunction(Shop shop) {
+        System.out.print(
                 """
                         **************************************
                         |_1)_Вывод в консоль_________________|
@@ -103,10 +107,33 @@ public class Menu {
 
         );
 
-        if (ioService.getInt(1, 2) == 1) {
+        int outputLocation = ioService.getInt(1, 2);
+
+        System.out.println("""
+                ******************Сортировка вывода********************
+                |_1)_По цене (возрастание)____________________________|
+                |_2)_По цене (убывание)_______________________________|
+                |_3)_По добавлению(сначала новые, потом более старые)_|
+                |_4)_Диапазон цены____________________________________|
+                *******************************************************
+                |->
+                """
+        );
+
+        switch (ioService.getInt(1, 4)) {
+            case 1 -> shop.sortByPriceAscending();
+            case 2 -> shop.sortByPriceDecreasing();
+            case 3 -> shop.sortByHistory();
+            case 4 -> {
+                sortByRange(shop, outputLocation);
+                return;
+            }
+        }
+
+        if (outputLocation == 1) {
             shop.printList();
         } else {
-            ioService.writeInFile("src/ShopUnit12/ListProduct.txt",shop.toString());
+            ioService.writeInFile("src/ShopUnit12/ListProduct.txt", shop.toString());
         }
     }
 }

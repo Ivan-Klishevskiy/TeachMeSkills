@@ -10,8 +10,7 @@ public class IOService {
     private Scanner sc;
 
     public  void writeInFile(String way,String txt){
-        
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(way))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(way,true))) {
             writer.write(txt);
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
