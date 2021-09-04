@@ -13,27 +13,25 @@ public class Shop {
     }
 
     public void sortByPriceAscending() {
-        list.sort(Comparator.comparing(product -> product.getPrice()));
+        list.sort(Comparator.comparing(Product::getPrice));
     }
 
     public void sortByPriceDecreasing() {
-        list.sort(Comparator.comparing((Product product) -> product.getPrice()).reversed());
+        list.sort(Comparator.comparing(Product::getPrice).reversed());
     }
 
     public void sortByHistory() {
-        list.sort(Comparator.comparing((Product product) -> product.getHistoryOfAdding()).reversed());
+        list.sort(Comparator.comparing(Product::getHistoryOfAdding).reversed());
     }
 
     public void addProduct(Product product) {
-        for (Product i : list) {
-            if (i.getId() == product.getId()) {
-                System.out.println("Добавление не успешно");
-                return;
-            }
+        if (list.stream().noneMatch(x -> x.getId() == product.getId())) {
+            product.setHistoryOfAdding(LocalTime.now());
+            list.add(product);
+            System.out.println("Добавление успешно");
+        } else {
+            System.out.println("Добавление не успешно");
         }
-        product.setHistoryOfAdding(LocalTime.now());
-        list.add(product);
-        System.out.println("Добавление успешно");
     }
 
     public void removeProduct(int id) {
@@ -48,15 +46,17 @@ public class Shop {
     }
 
     public void editProduct(Product product) {
-        for (Product i : list) {
-            if (i.getId() == product.getId()) {
-                System.out.println("Редактирование успешно");
-                i.setName(product.getName());
-                i.setPrice(product.getPrice());
-                return;
-            }
-        }
-        System.out.println("Редактирование не успешно");
+        list.stream().
+                filter(i -> i.getId() == product.getId()).
+                findFirst().
+                ifPresentOrElse((i) -> {
+                            i.setName(product.getName());
+                            i.setPrice(product.getPrice());
+                            System.out.println("Редактирование успешно");
+                        },
+                        () -> {
+                            System.out.println("Редактирование не успешно");
+                        });
     }
 
     public void setList(List<Product> list) {
@@ -85,6 +85,6 @@ public class Shop {
 
     @Override
     public String toString() {
-        return "Список товаров: "+"\n" + list;
+        return "Список товаров: " + "\n" + list;
     }
 }
