@@ -6,7 +6,10 @@ public class Menu {
     IOService ioService = new IOService();
 
     public void start() {
-        Shop shop = new Shop();
+        Shop shop = ioService.readObject("src/ShopUnit12/save.bat");
+        if (shop == null) {
+            shop = new Shop();
+        }
 
         do {
             System.out.print(
@@ -28,6 +31,7 @@ public class Menu {
                 case 3 -> editFunction(shop);
                 case 4 -> removeFunction(shop);
                 case 0 -> {
+                    ioService.saveObject("src/ShopUnit12/save.bat", shop);
                     System.out.println("Завершение программы...");
                     return;
                 }
@@ -39,9 +43,7 @@ public class Menu {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            for (int i = 0; i < 10; i++) {
-                System.out.println();
-            }
+            System.out.println("\n\n\n\n\n\n\n\n\n\n");
 
         } while (true);
     }
@@ -88,9 +90,13 @@ public class Menu {
                     .filter(x -> x.getPrice() >= lowerBound && x.getPrice() <= upperBound)
                     .forEach(System.out::print);
         } else {
-            shop.getList().stream()
+            ioService.writeInFile("src/ShopUnit12/ListProduct.txt", shop
+                    .getList()
+                    .stream()
                     .filter(x -> x.getPrice() >= lowerBound && x.getPrice() <= upperBound)
-                    .forEach(i -> ioService.writeInFile("src/ShopUnit12/ListProduct.txt", i.toString()));
+                    .map(Product::toString)
+                    .collect(Collectors.toList())
+                    .toString());
         }
 
     }
