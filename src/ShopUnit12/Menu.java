@@ -87,13 +87,15 @@ public class Menu {
 
         if (outputLocation == 1) {
             shop.getList().stream()
-                    .filter(x -> x.getPrice() >= lowerBound && x.getPrice() <= upperBound)
+                    .filter(x -> x.getPrice() >= lowerBound)
+                    .filter(i -> i.getPrice() <= upperBound)
                     .forEach(System.out::print);
         } else {
             ioService.writeInFile("src/ShopUnit12/ListProduct.txt", shop
                     .getList()
                     .stream()
-                    .filter(x -> x.getPrice() >= lowerBound && x.getPrice() <= upperBound)
+                    .filter(x -> x.getPrice() >= lowerBound)
+                    .filter(i -> i.getPrice() <= upperBound)
                     .map(Product::toString)
                     .collect(Collectors.toList())
                     .toString());

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShopUnit12/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/Shop.java" afterDir="false" />
+    <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="Shop fix">
+      <change beforePath="$PROJECT_DIR$/src/ShopUnit12/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +271,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hw2p2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw2p2" />
+    <MESSAGE value="Shop fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shop fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
