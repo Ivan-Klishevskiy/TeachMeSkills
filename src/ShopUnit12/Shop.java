@@ -39,6 +39,7 @@ public class Shop implements Serializable {
                                 -> {
                             product.setHistoryOfAdding(LocalTime.now());
                             list.add(product);
+                            System.out.println("Добавление успешно");
                         });
 
     }
