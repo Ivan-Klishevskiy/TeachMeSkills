@@ -78,7 +78,7 @@ public class Menu {
         shop.addProduct(new Product(id, name, price));
     }
 
-    public void sortByRange(Shop shop, int outputLocation) {
+    private void sortByRange(Shop shop, int outputLocation) {
         System.out.print("Введите нижнюю границу: ");
         int lowerBound = ioService.getInt(0, Integer.MAX_VALUE);
 

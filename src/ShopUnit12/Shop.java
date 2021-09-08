@@ -45,16 +45,7 @@ public class Shop implements Serializable {
     }
 
     public void removeProduct(int id) {
-        list.stream()
-                .filter(i -> i.getId() == id)
-                .findFirst()
-                .ifPresentOrElse(
-                        i
-                                -> {
-                            list.remove(i);
-                            System.out.println("Удаление успешно");
-                        },
-                        () -> System.out.println("Удаление не успешно"));
+        list.removeIf(i->i.getId()==id);
     }
 
     public void editProduct(Product product) {
