@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="Shop fix">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShopUnit12/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShopUnit12/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShopUnit12/IOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopUnit12/IOService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Run">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Unit11.Task2.Main" />
       <module name="TMS_course" />
@@ -183,6 +180,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Start" />
@@ -192,8 +200,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Run" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Start (1)" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.Main" />

@@ -3,12 +3,13 @@ package ShopUnit12;
 import java.io.*;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class IOService {
     private Scanner sc;
 
-    public <T> T readObject(String way)  {
-        try (ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(way))){
+    public <T> T readObject(String way) {
+        try (ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(way))) {
             return (T) objectInputStream.readObject();
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
@@ -16,7 +17,7 @@ public class IOService {
         return null;
     }
 
-    public <T>void saveObject(String way, T object) {
+    public <T> void saveObject(String way, T object) {
         try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(way))) {
             objectOutputStream.writeObject(object);
         } catch (IOException e) {
@@ -56,16 +57,10 @@ public class IOService {
                 sc.next();
             }
             String str = sc.nextLine();
-            boolean flag = true;
-            for (int i = 0; i < str.length(); i++) {
-                if (str.charAt(i) < 'A' || str.charAt(i) > 'z') {
-                    flag = false;
-                    System.out.println("Ошибка ввода.");
-                    break;
-                }
-            }
-            if (flag) {
+            if (Pattern.matches("(^[A-ZА-Я]([a-zа-я])*(\\d?\\d)?)((\\s[a-zа-я]+((\\d?\\d)?))*)", str)) {
                 return str;
+            }else{
+                System.out.println("Ошибка ввода!");
             }
         }
     }
