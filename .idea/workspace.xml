@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12Part2/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12Part2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12Part2/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12Part2/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12Part2/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Probnic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last.edited.regexp" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Unit11/Task2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -87,13 +87,13 @@
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task5">
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork12Part2.Task1" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Task1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork16.Task1" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork12Part2.*" />
+          <option name="PATTERN" value="AllClassWorks.ClassWork16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,25 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork12Part2.Task2" />
+    <configuration name="Task2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork16.Task2" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork12Part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork12Part2.Task3" />
-      <module name="TMS_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork12Part2.*" />
+          <option name="PATTERN" value="AllClassWorks.ClassWork16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,33 +140,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="TMS_course" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task1" />
-      <item itemvalue="Application.Task2" />
-      <item itemvalue="Application.Task3" />
       <item itemvalue="Application.Task4" />
       <item itemvalue="Application.Task5" />
+      <item itemvalue="Application.Task1 (1)" />
+      <item itemvalue="Application.Task2 (1)" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Task2 (1)" />
+        <item itemvalue="Application.Task1 (1)" />
         <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +196,7 @@
       <workItem from="1629216389003" duration="42034000" />
       <workItem from="1629977648343" duration="4157000" />
       <workItem from="1630661931310" duration="3321000" />
+      <workItem from="1631204797346" duration="4597000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
