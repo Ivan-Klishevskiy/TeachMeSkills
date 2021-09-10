@@ -57,7 +57,7 @@ public class IOService {
                 sc.next();
             }
             String str = sc.nextLine();
-            if (Pattern.matches("(^[A-ZА-Я]([a-zа-я]\\s?)+(\\d*\\s?)*)[^\\s]$", str)) {
+            if (Pattern.matches("(^[A-ZА-Я]([a-zа-я]\\s?)+(\\d*\\s?)*)", str)) {
                 return str;
             }else{
                 System.out.println("Ошибка ввода.");
