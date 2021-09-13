@@ -3,6 +3,7 @@ package ShopUnit12;
 import java.io.*;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class IOService {
     private Scanner sc;
@@ -56,16 +57,11 @@ public class IOService {
                 sc.next();
             }
             String str = sc.nextLine();
-            boolean flag = true;
-            for (int i = 0; i < str.length(); i++) {
-                if (str.charAt(i) < 'A' || str.charAt(i) > 'z') {
-                    flag = false;
-                    System.out.println("Ошибка ввода.");
-                    break;
-                }
-            }
-            if (flag) {
+
+            if (Pattern.matches("(^[A-ZА-Я]\\s?([a-zа-я]\\s?)*(\\d*\\s?)*)", str)) {
                 return str;
+            }else{
+                System.out.println("Ошибка ввода.");
             }
         }
     }
