@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<family>
+    <lastName>Симпсоны</lastName>
+    <members>
+        <persons age="30">
+            <name>Гомер</name>
+            <hobby>Пиво</hobby>
+        </persons>
+        <persons age="28">
+            <name>Мардж</name>
+            <hobby>Уборка</hobby>
+        </persons>
+        <persons age="12">
+            <name>Барт</name>
+            <hobby>Программирование на php</hobby>
+        </persons>
+        <persons age="10">
+            <name>Лиза</name>
+            <hobby>Пиво Охота крепкое</hobby>
+        </persons>
+    </members>
+</family>
