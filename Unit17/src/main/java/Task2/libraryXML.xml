@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library>
+    <listBook>
+        <article>FirstArt</article>
+        <name>Av1</name>
+        <year>2001</year>
+        <beLikeBooks>
+            <article>BELIKEFirstArt</article>
+            <name>BELIKEAv1</name>
+            <year>2002</year>
+        </beLikeBooks>
+        <beLikeBooks>
+            <article>BELIKEFirstArt1</article>
+            <name>BELIKEAv2</name>
+            <year>2003</year>
+        </beLikeBooks>
+        <beLikeBooks>
+            <article>BELIKEFirstArt2</article>
+            <name>BELIKEAv3</name>
+            <year>2004</year>
+        </beLikeBooks>
+    </listBook>
+    <listBook>
+        <article>SecondArt</article>
+        <name>Bv2</name>
+        <year>1998</year>
+    </listBook>
+</library>

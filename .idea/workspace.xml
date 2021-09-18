@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Probnic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task1/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task1/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task1/familyXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task2/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task2/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task2/libraryXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,14 +69,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Unit11/Task2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -80,23 +88,43 @@
       <recent name="E:\TMS_course\src\Unit7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TMS_course\Unit17\src\main\java\Task1" />
+      <recent name="E:\TMS_course\Unit17\src\main\java" />
       <recent name="E:\TMS_course\src\AllClassWorks" />
       <recent name="E:\TMS_course\src\AllClassWorks\classwork8" />
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn\part1" />
-      <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn\part2" />
-      <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Task1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork16.Task1" />
-      <module name="TMS_course" />
+  <component name="RunManager" selected="Application.Start (2)">
+    <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task1.Start" />
+      <module name="Unit17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork16.*" />
+          <option name="PATTERN" value="Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.Start" />
+      <module name="Unit17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Start" />
+      <module name="Unit17" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,32 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork12Part2.Task4" />
-      <module name="TMS_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork12Part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork12Part2.Task5" />
-      <module name="TMS_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork12Part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="TMS_course" />
@@ -147,31 +149,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task4" />
-      <item itemvalue="Application.Task5" />
-      <item itemvalue="Application.Task1 (1)" />
       <item itemvalue="Application.Task2 (1)" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Start" />
+      <item itemvalue="Application.Start (1)" />
+      <item itemvalue="Application.Start (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Start (2)" />
+        <item itemvalue="Application.Start (1)" />
+        <item itemvalue="Application.Start" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Task2 (1)" />
-        <item itemvalue="Application.Task1 (1)" />
-        <item itemvalue="Application.Task5" />
-        <item itemvalue="Application.Task4" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +201,7 @@
       <workItem from="1629977648343" duration="4157000" />
       <workItem from="1630661931310" duration="3321000" />
       <workItem from="1631204797346" duration="4597000" />
+      <workItem from="1631986244610" duration="2626000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
