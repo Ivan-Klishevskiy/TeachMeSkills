@@ -1,8 +1,9 @@
 package ShopUnit12;
 
+import java.io.Serializable;
 import java.time.LocalTime;
 
-public class Product {
+public class Product implements Serializable {
     private int id;
     private String name;
     private int price;

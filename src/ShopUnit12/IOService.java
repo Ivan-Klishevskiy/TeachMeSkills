@@ -1,16 +1,31 @@
 package ShopUnit12;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.List;
 import java.util.Scanner;
 
 public class IOService {
     private Scanner sc;
 
-    public  void writeInFile(String way,String txt){
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(way,true))) {
+    public <T> T readObject(String way)  {
+        try (ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(way))){
+            return (T) objectInputStream.readObject();
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public <T>void saveObject(String way, T object) {
+        try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(way))) {
+            objectOutputStream.writeObject(object);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void writeInFile(String way, String txt) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(way))) {
             writer.write(txt);
         } catch (IOException ex) {
             System.out.println(ex.getMessage());

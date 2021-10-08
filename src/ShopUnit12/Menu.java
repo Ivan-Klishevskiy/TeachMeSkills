@@ -6,7 +6,10 @@ public class Menu {
     IOService ioService = new IOService();
 
     public void start() {
-        Shop shop = new Shop();
+        Shop shop = ioService.readObject("src/ShopUnit12/save.bat");
+        if (shop == null) {
+            shop = new Shop();
+        }
 
         do {
             System.out.print(
@@ -28,6 +31,7 @@ public class Menu {
                 case 3 -> editFunction(shop);
                 case 4 -> removeFunction(shop);
                 case 0 -> {
+                    ioService.saveObject("src/ShopUnit12/save.bat", shop);
                     System.out.println("Завершение программы...");
                     return;
                 }
@@ -39,9 +43,7 @@ public class Menu {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            for (int i = 0; i < 10; i++) {
-                System.out.println();
-            }
+            System.out.println("\n\n\n\n\n\n\n\n\n\n");
 
         } while (true);
     }
@@ -76,7 +78,7 @@ public class Menu {
         shop.addProduct(new Product(id, name, price));
     }
 
-    public void sortByRange(Shop shop, int outputLocation) {
+    private void sortByRange(Shop shop, int outputLocation) {
         System.out.print("Введите нижнюю границу: ");
         int lowerBound = ioService.getInt(0, Integer.MAX_VALUE);
 
@@ -85,12 +87,18 @@ public class Menu {
 
         if (outputLocation == 1) {
             shop.getList().stream()
-                    .filter(x -> x.getPrice() >= lowerBound && x.getPrice() <= upperBound)
+                    .filter(x -> x.getPrice() >= lowerBound)
+                    .filter(i -> i.getPrice() <= upperBound)
                     .forEach(System.out::print);
         } else {
-            shop.getList().stream()
-                    .filter(x -> x.getPrice() >= lowerBound && x.getPrice() <= upperBound)
-                    .forEach(i -> ioService.writeInFile("src/ShopUnit12/ListProduct.txt", i.toString()));
+            ioService.writeInFile("src/ShopUnit12/ListProduct.txt", shop
+                    .getList()
+                    .stream()
+                    .filter(x -> x.getPrice() >= lowerBound)
+                    .filter(i -> i.getPrice() <= upperBound)
+                    .map(Product::toString)
+                    .collect(Collectors.toList())
+                    .toString());
         }
 
     }

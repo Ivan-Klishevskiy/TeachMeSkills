@@ -1,11 +1,13 @@
 package ShopUnit12;
 
+import java.io.Serializable;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class Shop {
+public class Shop implements Serializable {
     private List<Product> list;
 
     public Shop() {
@@ -25,38 +27,38 @@ public class Shop {
     }
 
     public void addProduct(Product product) {
-        if (list.stream().noneMatch(x -> x.getId() == product.getId())) {
-            product.setHistoryOfAdding(LocalTime.now());
-            list.add(product);
-            System.out.println("Добавление успешно");
-        } else {
-            System.out.println("Добавление не успешно");
-        }
+        list.stream()
+                .filter(i -> i.getId() == product.getId())
+                .findFirst()
+                .ifPresentOrElse(
+                        i
+                                -> {
+                            System.out.println("Добавление не успешно");
+                        },
+                        ()
+                                -> {
+                            product.setHistoryOfAdding(LocalTime.now());
+                            list.add(product);
+                            System.out.println("Добавление успешно");
+                        });
+
     }
 
     public void removeProduct(int id) {
-        for (Product i : list) {
-            if (i.getId() == id) {
-                System.out.println("Удаление успешно");
-                list.remove(i);
-                return;
-            }
-        }
-        System.out.println("Удаление не успешно");
+        list.removeIf(i->i.getId()==id);
     }
 
     public void editProduct(Product product) {
         list.stream().
                 filter(i -> i.getId() == product.getId()).
                 findFirst().
-                ifPresentOrElse((i) -> {
+                ifPresentOrElse(
+                        (i) -> {
                             i.setName(product.getName());
                             i.setPrice(product.getPrice());
                             System.out.println("Редактирование успешно");
                         },
-                        () -> {
-                            System.out.println("Редактирование не успешно");
-                        });
+                        () -> System.out.println("Редактирование не успешно"));
     }
 
     public void setList(List<Product> list) {
@@ -68,19 +70,13 @@ public class Shop {
     }
 
     public List<Integer> getAllId() {
-        List<Integer> saveId = new ArrayList<>();
-        for (Product i : list) {
-            saveId.add(i.getId());
-        }
-        return saveId;
+        return list.stream().map(Product::getId).collect(Collectors.toList());
     }
 
     public void printList() {
         System.out.println("Все товары:");
         System.out.println("| Название  | цена |  ID  |");
-        for (Product i : list) {
-            System.out.printf("|%10s | %5d| %5d|\n", i.getName(), i.getPrice(), i.getId());
-        }
+        list.forEach(i -> System.out.printf("|%10s | %5d| %5d|\n", i.getName(), i.getPrice(), i.getId()));
     }
 
     @Override
