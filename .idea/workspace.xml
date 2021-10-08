@@ -5,36 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/Test/TestInTest/newFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/copied_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/notes4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork11/person.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task1/Task1InFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task1/Task1OutFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task1/Unit11Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/ParsingTxt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/Task2OutFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/Task2Text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task2/TextFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task3/BlackList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task3/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task3/Text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task3/TxtFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task4/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task4/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit11/Task4/save.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12/Task3/HeavyBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12/Task3/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork12/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork13/LambdaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork13/Task2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork13/Task2/CheckCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork13/Task2/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/Part1/TaskArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/Part1/TaskArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/Part1/TaskHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/Part1/TaskLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit12/Part1/TaskTreeMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit9/Task4/TextFormater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit9/Task4/TextFormater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit11/Task2/ParsingTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit11/Task2/ParsingTxt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +33,7 @@
         <option value="package-info" />
         <option value="Enum" />
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -91,6 +78,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -109,46 +97,7 @@
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit11.Task2.Main" />
-      <module name="TMS_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit11.Task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit11.Task4.Start" />
-      <module name="TMS_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit11.Task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit11.Task3.Start" />
-      <module name="TMS_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Unit11.Task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TaskTreeMap">
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork9.Task6.Start" />
       <module name="TMS_course" />
@@ -188,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork11.Task8" />
+    <configuration name="TaskArrayDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit12.Part1.TaskArrayDeque" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork11.*" />
+          <option name="PATTERN" value="Unit12.Part1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unit11Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Unit11.Task1.Unit11Task1" />
+    <configuration name="TaskArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit12.Part1.TaskArrayList" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Unit11.Task1.*" />
+          <option name="PATTERN" value="Unit12.Part1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,33 +163,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="TaskHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit12.Part1.TaskHashSet" />
+      <module name="TMS_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit12.Part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit12.Part1.TaskLinkedList" />
+      <module name="TMS_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit12.Part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit12.Part1.TaskTreeMap" />
+      <module name="TMS_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit12.Part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task8" />
-      <item itemvalue="Application.Unit11Task1" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Start" />
-      <item itemvalue="Application.Start (1)" />
+      <item itemvalue="Application.TaskArrayList" />
+      <item itemvalue="Application.TaskLinkedList" />
+      <item itemvalue="Application.TaskArrayDeque" />
+      <item itemvalue="Application.TaskHashSet" />
+      <item itemvalue="Application.TaskTreeMap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Start (1)" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="Application.Unit11Task1" />
-        <item itemvalue="Application.Task8" />
+        <item itemvalue="Application.TaskTreeMap" />
+        <item itemvalue="Application.TaskHashSet" />
+        <item itemvalue="Application.TaskArrayDeque" />
+        <item itemvalue="Application.TaskLinkedList" />
+        <item itemvalue="Application.TaskArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +248,8 @@
       <workItem from="1628198867332" duration="6219000" />
       <workItem from="1628255121169" duration="822000" />
       <workItem from="1628354353879" duration="41231000" />
-      <workItem from="1629216389003" duration="26962000" />
+      <workItem from="1629216389003" duration="42034000" />
+      <workItem from="1629977648343" duration="4157000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
