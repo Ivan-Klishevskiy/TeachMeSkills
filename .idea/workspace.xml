@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/Unit17/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task1/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task1/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task1/familyXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task2/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task2/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Task2/libraryXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Cw1/DevelopersJdbcDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork17/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork17/NThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork17/Res.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit19_Thread/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit17/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit17/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task1/Family.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task1/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task1/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task2/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task2/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task2/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +99,31 @@
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn\part1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start (2)">
+  <component name="RunManager" selected="Application.Task1">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork17.Main" />
+      <module name="TMS_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AllClassWorks.ClassWork17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1.Start" />
       <module name="Unit17" />
@@ -122,15 +150,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Start" />
-      <module name="Unit17" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit19_Thread.Task1" />
+      <module name="TMS_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Unit19_Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork16.Task2" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork16.Task3" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
@@ -142,40 +176,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="TMS_course" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Task2 (1)" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Start" />
       <item itemvalue="Application.Start (1)" />
       <item itemvalue="Application.Start (2)" />
+      <item itemvalue="Application.Task3" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Task1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Start (2)" />
         <item itemvalue="Application.Start (1)" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Task2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +216,11 @@
       <workItem from="1630661931310" duration="3321000" />
       <workItem from="1631204797346" duration="4597000" />
       <workItem from="1631986244610" duration="2626000" />
+      <workItem from="1631997728785" duration="1245000" />
+      <workItem from="1632160026784" duration="4368000" />
+      <workItem from="1633513573525" duration="46000" />
+      <workItem from="1633708571651" duration="4849000" />
+      <workItem from="1634573877565" duration="2952000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
