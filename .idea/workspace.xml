@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/Unit17/src/main/java/Cw1/DevelopersJdbcDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork17/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork17/NThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork17/Res.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit19_Thread/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/entity/Employees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/entity/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/jdbc_connection/JdbcConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/repository/EmployeesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/service/EmployeesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/service/impl/EmployeesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit21/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit17/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit17/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task1/Family.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task1/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task1/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task2/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task2/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit17/target/classes/Task2/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllClassWorks/ClassWork16/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,21 +67,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shop-TMS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -99,7 +100,7 @@
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn\part1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task1">
+  <component name="RunManager" selected="Application.run">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -117,19 +118,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AllClassWorks.ClassWork17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1.Start" />
-      <module name="Unit17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,20 +164,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="run" />
+      <module name="Unit21" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Start (1)" />
       <item itemvalue="Application.Start (2)" />
       <item itemvalue="Application.Task3" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Task1" />
+      <item itemvalue="Application.run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.run" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Start (2)" />
-        <item itemvalue="Application.Start (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +215,7 @@
       <workItem from="1632160026784" duration="4368000" />
       <workItem from="1633513573525" duration="46000" />
       <workItem from="1633708571651" duration="4849000" />
-      <workItem from="1634573877565" duration="2952000" />
+      <workItem from="1634573877565" duration="13068000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
@@ -289,6 +284,36 @@
           <url>file://$PROJECT_DIR$/src/Unit9/Additionally/Start.java</url>
           <line>20</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
