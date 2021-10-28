@@ -1,12 +1,18 @@
 package by.tms.storage;
 
 import by.tms.entity.User;
+import by.tms.service.DbService;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class InMemoryStorage {
-    private final static List<User> userList = new ArrayList<>();
+
+    private List<User> userList;
+
+    public InMemoryStorage(List<User> userList) {
+        this.userList = userList;
+    }
 
     public void save(User user) {
         userList.add(user);
@@ -29,6 +35,7 @@ public class InMemoryStorage {
                 break;
             }
         }
+
     }
 
     public void deleteUser(User user) {
