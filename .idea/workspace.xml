@@ -1,26 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Unit22:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1da5ce50-3c64-48df-bfc3-7d9ef87fbc29" name="Default Changelist" comment="hw2p2">
-      <change afterPath="$PROJECT_DIR$/Unit21/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/entity/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/entity/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/jdbc_connection/JdbcConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/repository/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/repository/EmployeesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/service/EmployeesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/java/service/impl/EmployeesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit21/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassWork/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unit14/Calc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TMS_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TMS_course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit21/src/main/java/entity/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit21/src/main/java/entity/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit21/target/classes/entity/Employees.class" beforeDir="false" afterPath="$PROJECT_DIR$/Unit21/target/classes/entity/Employees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit21/target/classes/repository/impl/EmployeesRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Unit21/target/classes/repository/impl/EmployeesRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/service/DbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/service/DbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/service/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/storage/InMemoryStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/storage/InMemoryStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/storage/UserStorageDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/storage/UserStorageDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/web/servlet/AuthorizationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/web/servlet/AuthorizationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/web/servlet/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unit22/src/main/java/by/tms/web/servlet/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit1/Unit1Task8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TMS_course/Unit2/Unit2Task8.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +58,7 @@
         <option value="Enum" />
         <option value="Kotlin Class" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -41,7 +66,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="shopUnit15" />
+        <entry key="$PROJECT_DIR$" value="hw21" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +78,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="2" />
@@ -74,9 +106,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="jdk.selected.JAVA_MODULE" value="16" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shop-TMS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -100,7 +132,7 @@
       <recent name="E:\TMS_course\src\AllClassWorks\classwork6Reborn\part1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.run">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.44">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -112,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork17.Main" />
+    <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Unit14.Calc" />
       <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AllClassWorks.ClassWork17.*" />
+          <option name="PATTERN" value="Unit14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Start (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2.Start" />
-      <module name="Unit17" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllClassWorks.ClassWork17.Main" />
+      <module name="TMS_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
+          <option name="PATTERN" value="AllClassWorks.ClassWork17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,20 +203,108 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.44" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Unit22:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="36514bc3-70a2-4b5b-9e4b-cf356538f13f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56693" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Unit22:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Start (2)" />
       <item itemvalue="Application.Task3" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Task1" />
       <item itemvalue="Application.run" />
+      <item itemvalue="Application.Calc" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.44" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calc" />
         <item itemvalue="Application.run" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Start (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +335,11 @@
       <workItem from="1632160026784" duration="4368000" />
       <workItem from="1633513573525" duration="46000" />
       <workItem from="1633708571651" duration="4849000" />
-      <workItem from="1634573877565" duration="13068000" />
+      <workItem from="1634573877565" duration="16784000" />
+      <workItem from="1634816407750" duration="612000" />
+      <workItem from="1634915709587" duration="277000" />
+      <workItem from="1635177153951" duration="16652000" />
+      <workItem from="1635360309347" duration="21997000" />
     </task>
     <task id="LOCAL-00001" summary="hw2p2">
       <created>1626214433849</created>
@@ -224,7 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626214433849</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic calculator">
+      <created>1635424726145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635424726145</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DB">
+      <created>1635429900987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635429900987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +393,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hw2p2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw2p2" />
+    <MESSAGE value="basic calculator" />
+    <MESSAGE value="DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,33 +427,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unit21/src/main/java/repository/impl/EmployeesRepositoryImpl.java</url>
-          <line>127</line>
-          <option name="timeStamp" value="46" />
+          <line>61</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

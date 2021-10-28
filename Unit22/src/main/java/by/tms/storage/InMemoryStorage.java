@@ -8,11 +8,9 @@ import java.util.List;
 
 public class InMemoryStorage {
 
-    private List<User> userList;
+    private final static List<User> userList = new ArrayList<>();
 
-    public InMemoryStorage(List<User> userList) {
-        this.userList = userList;
-    }
+
 
     public void save(User user) {
         userList.add(user);

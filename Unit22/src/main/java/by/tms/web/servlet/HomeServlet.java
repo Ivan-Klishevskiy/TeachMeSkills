@@ -9,6 +9,12 @@ import java.io.IOException;
 
 @WebServlet(value = "/")
 public class HomeServlet extends HttpServlet {
+
+    @Override
+    public void init() throws ServletException {
+        super.init();
+    }
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         getServletContext().getRequestDispatcher("/pages/home.jsp").forward(req, resp);

@@ -1,6 +1,7 @@
 package entity;
 
 public class Employees {
+    private int id;
     private String firstName;
     private String lastName;
     private int positionId;
@@ -14,6 +15,14 @@ public class Employees {
         this.firstName = firstName;
         this.lastName = lastName;
         this.positionId = positionId;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getPost() {
@@ -58,9 +67,13 @@ public class Employees {
 
     @Override
     public String toString() {
-        return  "firstName='" + firstName + '\'' +
+        return "Employees{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", positionId=" + positionId +
                 ", post='" + post + '\'' +
-                ", experience=" + experience;
+                ", experience=" + experience +
+                '}';
     }
 }

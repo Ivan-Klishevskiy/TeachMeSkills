@@ -5,7 +5,20 @@ import by.tms.entity.User;
 import java.util.List;
 
 public class DbService {
-    private DbService dbService = new DbService();
+    private static DbService dbService;
+
+    public static DbService getInstance(){
+        DbService localInstance = dbService;
+        if (localInstance == null) {
+            localInstance=dbService;
+            synchronized (StorageService.class){
+                if(localInstance == null){
+                    dbService=localInstance=new DbService();
+                }
+            }
+        }
+        return localInstance;
+    }
 
     public void save(User user){
         dbService.save(user);

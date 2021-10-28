@@ -18,7 +18,6 @@ public class EmployeesRepositoryImpl implements EmployeesRepository {
 
     private static final String SELECT_BY_ID = "SELECT * FROM employees WHERE id=?";
 
-
     private static final String UPDATE = "UPDATE employees SET first_name=?, last_name=?, position_id=? WHERE id=?";
 
     private static final String JOIN_LEFT="SELECT first_name, last_name, post, experience FROM employees LEFT JOIN posit ON employees.position_id = posit.id";
@@ -59,9 +58,10 @@ public class EmployeesRepositoryImpl implements EmployeesRepository {
 
             while (resultSet.next()) {
                 Employees employees= new Employees();
-                employees.setFirstName(resultSet.getString(1));
-                employees.setLastName(resultSet.getString(2));
-                employees.setPositionId(resultSet.getInt(3));
+                employees.setId(resultSet.getInt(1));
+                employees.setFirstName(resultSet.getString("first_name"));
+                employees.setLastName(resultSet.getString(3));
+                employees.setPositionId(resultSet.getInt(4));
                 list.add(employees);
             }
 
@@ -101,11 +101,23 @@ public class EmployeesRepositoryImpl implements EmployeesRepository {
     @Override
     public boolean save(Employees entity) {
         try (Connection con = connection.getConnection();
-             PreparedStatement preparedStatement = con.prepareStatement(INSERT)) {
+             PreparedStatement preparedStatement = con.prepareStatement(INSERT,Statement.RETURN_GENERATED_KEYS)) {
             preparedStatement.setString(1,  entity.getFirstName());
             preparedStatement.setString(2, entity.getLastName());
             preparedStatement.setInt(3, entity.getPositionId());
-            return preparedStatement.executeUpdate()!=0;
+            int result = preparedStatement.executeUpdate();
+            try (ResultSet resultSet = preparedStatement.getGeneratedKeys()){
+                while (resultSet.next()){
+                    System.out.println(resultSet.getInt(1));
+                    ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
+                    int index =resultSetMetaData.getColumnCount();
+
+                    System.out.println(resultSetMetaData);
+                    System.out.println(index);
+
+                }
+            }
+            return result!=0;
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }

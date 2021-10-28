@@ -1,6 +1,7 @@
 package by.tms.web.servlet;
 
 import by.tms.entity.User;
+import by.tms.service.DbService;
 import by.tms.service.StorageService;
 
 import javax.servlet.ServletException;
@@ -14,6 +15,7 @@ import java.io.IOException;
 public class AuthorizationServlet extends HttpServlet {
 
     private StorageService store;
+    private DbService dbService;
 
     @Override
     public void init() throws ServletException {

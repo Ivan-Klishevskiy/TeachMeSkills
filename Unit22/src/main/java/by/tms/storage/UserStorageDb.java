@@ -9,18 +9,21 @@ import java.util.List;
 
 public class UserStorageDb {
 
-    private static final String SELECT_ALL = "SELECT * FROM table";
+    private static final String SELECT_ALL = "SELECT * FROM myTable";
 
-    private static final String INSERT = "INSERT INTO table (name, username, password) VALUES (?, ?, ?)";
+    private static final String INSERT = "INSERT INTO myTable (name, username, password) VALUES (?, ?, ?)";
 
-    private static final String DELETE = "DELETE FROM table WHERE username=? AND password=?";
+    private static final String DELETE = "DELETE FROM myTable WHERE username=? AND password=?";
 
-    private static final String SELECT_BY_USER = "SELECT * FROM table WHERE username=?";
+    private static final String SELECT_BY_USER = "SELECT * FROM myTable WHERE username=?";
 
-    private static final String UPDATE = "UPDATE table SET name=?, password=? WHERE username=?";
+    private static final String UPDATE = "UPDATE myTable SET name=?, password=? WHERE username=?";
 
-    private final JdbcConnection connection = new JdbcConnection();
+    private  JdbcConnection connection;
 
+    public UserStorageDb(JdbcConnection connection) {
+        this.connection = connection;
+    }
 
     public boolean save(User user) {
         try (Connection con = connection.getConnection();
